@@ -18,7 +18,7 @@ public class IrctcSearch {
 	By date = By.xpath("//*[@id=\"jDate\"]/span/input");
 	By seldate = By.xpath("//*[@id=\"jDate\"]/span/div/div/div[2]/table/tbody/tr[4]/td[1]/a");
 	By bus = By.xpath("//a[@aria-label='Menu BUSES. Website will be opened in new tab']");
-	By refresh = By.xpath("//*[@id=\"divMain\"]/div/app-train-list/div[4]/div/div[5]/div[1]/div[1]/app-train-avl-enq/div[1]/div[5]/div[1]/table/tr/td[1]/div/div[1]/strong");
+	By refresh = By.xpath("/html[1]/body[1]/app-root[1]/app-home[1]/div[3]/div[1]/app-train-list[1]/div[4]/div[1]/div[5]/div[1]/div[1]/app-train-avl-enq[1]/div[1]/div[5]/div[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/strong[1]");
 	By select = By.xpath("/html[1]/body[1]/app-root[1]/app-home[1]/div[3]/div[1]/app-train-list[1]/div[4]/div[1]/div[5]/div[1]/div[1]/app-train-avl-enq[1]/div[1]/div[7]/div[1]/div[3]/table[1]/tr[1]/td[2]/div[1]/div[1]");
 	By book = By.xpath("/html[1]/body[1]/app-root[1]/app-home[1]/div[3]/div[1]/app-train-list[1]/div[4]/div[1]/div[5]/div[1]/div[1]/app-train-avl-enq[1]/div[2]/div[1]/span[1]/span[1]/button[1]");
 	By close = By.xpath("//*[@id=\"login_header_disable\"]/div/div/div[2]/a");
